@@ -11,7 +11,7 @@
  *        $join(['hello', 'cleber.programmer'], ' ');
  * 
  */
-Ninja.module('$join', ['$curry'], function ($curry) {
+this.Ninja.module('$join', ['$curry'], function ($curry) {
   
   /**
    * Jounta todos os elementos do array em uma literal
